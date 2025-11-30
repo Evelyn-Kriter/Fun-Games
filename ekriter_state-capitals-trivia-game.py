@@ -1,4 +1,3 @@
-#Evey Kriter/CSCI0101/11.7.2019/Lab 8
 
 import random
 
@@ -34,5 +33,6 @@ def game(filename):
             print("Sorry, the correct answer is " + capitals[keys] + ".")
             total = total + 1
     print("Your score was " + str(correct) + "/" + str(total) + " which is " + str(correct/total*100) + "%")
+
 
 game('state_capitals.csv')
